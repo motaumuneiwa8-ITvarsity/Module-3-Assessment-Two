@@ -1,0 +1,238 @@
+html {
+    height: 100;
+    
+}
+body {
+    font-family: sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;
+}
+
+.body-home {
+    background-image: url(image/log%20restaurant%20background.jpg);
+    background-position: center;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals {
+    background-image: url(image/background.jpeg);
+    background-position: center;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*================ HOME PAGE ==================*/
+
+#home-logo-img {
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding: 40px 20px 20px 40px;
+    }
+
+    #home h2{
+        text-align: center;
+        color:white;
+    }
+
+
+/*============== HOME PAGE MENU ============*/
+
+.home-menu-item {
+    text-decoration: none;
+    text-transform: upperchase;
+    
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid blue;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*================ HEADER ==================*/
+
+.header {
+    background: url('image/background%201.jpeg');
+    background-position: center;
+    
+    width: 100;
+    height: 40%;
+    top: 0%
+        
+    position: fixed;
+    overflow: hidden;
+    
+    text-align: center;
+}
+ 
+.header i {
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: #ffffff
+}
+
+.header img {
+    width: 100px;
+    padding-top: 14px;
+    padding-right: 25px;    
+}
+
+/*============== HOME PAGE MENU ============*/
+
+.meals-list a {
+    text-decoration: none;
+}
+
+.meals-list-item {
+    border: 5px solid white;
+    margin: 10px;
+}
+
+.meals-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;    
+}
+
+.meals-list-item i {
+    float: right;
+    color: white;
+    padding-right: 10px;
+}
+
+.meals-list-item p {
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    margin-top: -7px;
+    padding-left: 10px
+}
+
+/*================ Food PAGE ==================*/
+
+#food {
+    padding-top: 50%;
+}
+
+/*================ food DETAILS ==================*/
+
+.food-details img {
+    width:  85%;
+    height: 400px;
+    padding: 40px 20px 20px 40px;
+    align-content: center;
+}
+
+.food-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid darkslategrey;
+    margin: 10px;
+    padding: 5px;
+}
+
+.food-details h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+    
+}
+
+.food-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.food-details-info p {
+    font-size: 13px;
+    display: inline-block
+    
+}
+
+.food-details-description {
+    line-height: 25px;
+    margin-left: 10px;
+    
+}
+
+
+/*================ form ==================*/
+
+form{
+    margin: 20px;
+    text-align: center;
+    
+}
+
+.textarea-field{
+    width: 100%;
+    height: 150px;
+    padding-top: 10px;
+}
+
+.button{
+    border-radius: 20px;
+    color: white;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: dimgray;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/*========== Responsive layout ==========*/
+
+@media only screen and (min-width: 600px) {
+    #meals{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 80%;
+        margin: auto;
+    }
+    }
+
+@media only screen and (min-width: 1000px) {
+        #meals{
+            width: 60%;
+            margin: auto;
+        }
+        
+        #recipe{
+            width: 60%;
+            margin: auto;
+        }
+    }
+    
+@media only screen and (min-width: 1000px) {
+        #meals{
+            width: 40%;
+            margin: auto;
+        }
+        
+        #recipe{
+            width: 40%;
+            margin: auto;
+        }
+    }
+    
+    
+
